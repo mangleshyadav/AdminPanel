@@ -1,0 +1,385 @@
+﻿<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	    <link type="text/css" rel="stylesheet" href="css/perfect-scrollbar.min.css"  media="screen,projection"/>
+	    <link type="text/css" rel="stylesheet" href="css/loader.css"  media="screen,projection"/>
+
+	  <style>
+	  
+		#main {
+		padding-left: 240px;
+		}
+		.m-box{
+		padding-top:12px;
+		}
+		.sidebar-collapse {
+			position: absolute;
+			top: -47px;
+			left: -155px;
+		}
+		#left-sidebar-nav {
+			position: fixed;
+			width: 100px;
+			left: 180px;
+			z-index: 999;
+			height: auto;
+		}
+		ul.side-nav.leftside-navigation {
+			top: 64px;
+			overflow: hidden;
+		}
+		.collapsible-header:after {
+			font-family: "Material-Design-Icons";
+			content: "\e7c3";
+			float: right;
+			color: #9e9e9e;
+			font-size: 18px;
+		}
+		.side-nav a {
+			line-height: 43px;
+			height: 43px;
+		}
+		ul.side-nav.leftside-navigation li a {
+			font-size: 14px;
+			font-weight: 400;
+			height: 43px;
+			line-height: 43px;
+		}
+		ul.side-nav.leftside-navigation li a {
+			font-size: 14px;
+			font-weight: 400;
+		}
+		@media screen and (min-width: 992px) {
+			a.brand-logo {
+				margin-left: 30px;
+			}
+		}
+		@media only screen and (max-width: 993px){
+			#main {
+				padding-left: 0;
+			}
+		}
+		
+		footer {
+    background: #ee6e73;
+    padding :25px 0px 5px;
+    color: #fff;
+}
+	  </style>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+	
+	 <!--div class="container"-->
+		<div id="loader-wrapper">
+        <div id="loader"></div>        
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+        <!-- Navbar goes here -->
+		<div class="navbar-fixed">
+			<nav>
+				<div class="nav-wrapper ">
+				  <a href="#!" class="brand-logo">Admin</a>
+				 <!--a href="#" data-activates="slide-out" class="sidebar-collapse btn-floating btn-medium waves-effect waves-light cyan"><i class="mdi-navigation-menu"></i></a-->
+				  <ul class="right hide-on-med-and-down">
+					<li><a href="#">Aboutus</a></li>
+					<li>
+						<a class='dropdown-button btn' href='#' data-activates='dropdown1'>Services!</a>
+
+					  <!-- Dropdown Structure -->
+						<ul id='dropdown1' class='dropdown-content'>
+						<li><a href="#!">one</a></li>
+						<li><a href="#!">two</a></li>
+						<li class="divider"></li>
+						<li><a href="#!">three</a></li>
+					  </ul>
+					  </li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Feedback</a></li>
+				  </ul>
+				  
+				</div>
+			  </nav>
+		</div
+
+		<!-- start main -->
+		
+		<div id="main">
+				<div class="wrapper">
+					<!--start left side bar-->
+					<aside id="left-sidebar-nav">
+						<ul id="slide-out" class="side-nav fixed leftside-navigation ps-container ps-active-y" >
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Dashboard</a></li>
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> DeveloperTeam</a></li>
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> QATeam</a></li>
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> HrTeam</a></li>
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> UITeam</a></li>
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Leads</a></li>
+							<li class="no-padding">
+								<ul class="collapsible collapsible-accordion">
+									<li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="mdi-action-view-carousel"></i> Angularjs</a>
+										<div class="collapsible-body" style="">
+											<ul>
+												<li><a href="#">UI Router</a>
+												</li>
+												<li><a href="#">UI Grid</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Bootstrap</a></li>
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Css3</a></li>
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Typescript</a></li>
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> graphs</a></li>
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Leads</a></li>
+							
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Bootstrap</a></li>
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Css3</a></li>
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Bootstrap</a></li>
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Css3</a></li>
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Bootstrap</a></li>
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Css3</a></li>
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Bootstrap</a></li>
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Css3</a></li>
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Bootstrap</a></li>
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Css3</a></li>
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Bootstrap</a></li>
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Css3</a></li>
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Bootstrap end</a></li>
+							<li><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Css3</a></li>
+							
+						<br>
+						<br>
+						<br>
+						<br>
+						</ul>
+						<a href="#" data-activates="slide-out" class="sidebar-collapse btn-floating btn-medium waves-effect waves-light hide-on-large-only cyan"><i class="mdi-navigation-menu"></i></a>
+					</aside>
+					<!--end left side bar-->
+					<!--//////////////////-->
+					<!--start content -->
+					<section class="content" >
+						<div class="container" style="width: 98%; padding: 0 0.5rem;">
+							<div class="m-box">
+								<div class="row">
+								<div class="col s12">
+								<h3> Intriduction</h3>
+								<p> Template for admin panel in materialize framework .
+								</p>
+								</div>
+									<div class="col s12 l3">
+											<div class="card">
+													<div class="card-image waves-effect waves-block waves-light">
+													  <img class="activator" src="img/Irina-Shayk2.jpg">
+													</div>
+													<div class="card-content">
+													  <span class="card-title activator grey-text text-darken-4">Irina Shyak<i class="material-icons right">more_vert</i></span>
+													  <p><a href="#">This is a link</a></p>
+													</div>
+													<div  class="card-reveal">
+														  <span class="card-title grey-text text-darken-4">Irina Shyak<i class="material-icons right">close</i></span>
+														  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+													</div>
+											</div>
+									 </div>
+									 <div class="col s12 l3">
+											<div class="card">
+													<div class="card-image waves-effect waves-block waves-light">
+													  <img class="activator" src="img/Transformers-5.jpg">
+													</div>
+													<div class="card-content">
+													  <span class="card-title activator grey-text text-darken-4">transformer<i class="material-icons right">more_vert</i></span>
+													  <p><a href="#">This is a link</a></p>
+													</div>
+													<div  class="card-reveal">
+														  <span class="card-title grey-text text-darken-4">transformer<i class="material-icons right">close</i></span>
+														  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+													</div>
+											</div>
+									 </div>
+									 
+									 <div class="col s12 l3">
+											<div class="card">
+													<div class="card-image waves-effect waves-block waves-light">
+													  <img class="activator" src="img/Irina-Shayk1.jpg">
+													</div>
+													<div class="card-content">
+													  <span class="card-title activator grey-text text-darken-4">Irina Shyak<i class="material-icons right">more_vert</i></span>
+													  <p><a href="#">This is a link</a></p>
+													</div>
+													<div  class="card-reveal">
+														  <span class="card-title grey-text text-darken-4">Irina Shyak<i class="material-icons right">close</i></span>
+														  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+													</div>
+											</div>
+									 </div>
+									  <div class="col s12 l3">
+											<div class="card">
+													<div class="card-image waves-effect waves-block waves-light">
+													  <img class="activator" src="img/irina-shayk2.jpg">
+													</div>
+													<div class="card-content">
+													  <span class="card-title activator grey-text text-darken-4">Irina Shyak<i class="material-icons right">more_vert</i></span>
+													  <p><a href="#">This is a link</a></p>
+													</div>
+													<div  class="card-reveal">
+														  <span class="card-title grey-text text-darken-4">Irina Shyak<i class="material-icons right">close</i></span>
+														  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+													</div>
+											</div>
+									 </div>
+								</div>
+
+							</div>
+							<div class=m-box">
+								<div class="row">
+									<div class="col s12 l6">
+									 <ul class="collection">
+										<li class="collection-item avatar">
+										   <i class="material-icons circle">folder</i>
+										  <span class="title">Title</span>
+										  <p>First Line <br>
+											 Second Line
+										  </p>
+										  <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+										</li>
+										<li class="collection-item avatar">
+										  <i class="material-icons circle">folder</i>
+										  <span class="title">Title</span>
+										  <p>First Line <br>
+											 Second Line
+										  </p>
+										  <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+										</li>
+										<li class="collection-item avatar">
+										  <i class="material-icons circle green">insert_chart</i>
+										  <span class="title">Title</span>
+										  <p>First Line <br>
+											 Second Line
+										  </p>
+										  <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+										</li>
+										<li class="collection-item avatar">
+										  <i class="material-icons circle red">play_arrow</i>
+										  <span class="title">Title</span>
+										  <p>First Line <br>
+											 Second Line
+										  </p>
+										  <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+										</li>
+									  </ul>
+									</div>
+									<div class="col s12 l6">
+										<ul class="collection">
+											<li class="collection-item avatar">
+											    <i class="material-icons circle">folder</i>
+											  <span class="title">Title</span>
+											  <p>First Line <br>
+												 Second Line
+											  </p>
+											  <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+											</li>
+											<li class="collection-item avatar">
+											  <i class="material-icons circle">folder</i>
+											  <span class="title">Title</span>
+											  <p>First Line <br>
+												 Second Line
+											  </p>
+											  <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+											</li>
+											<li class="collection-item avatar">
+											  <i class="material-icons circle green">insert_chart</i>
+											  <span class="title">Title</span>
+											  <p>First Line <br>
+												 Second Line
+											  </p>
+											  <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+											</li>
+											<li class="collection-item avatar">
+											  <i class="material-icons circle red">play_arrow</i>
+											  <span class="title">Title</span>
+											  <p>First Line <br>
+												 Second Line
+											  </p>
+											  <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+											</li>
+										  </ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!--end content-->
+					<!--//////////////////-->
+					<!--start right side bar-->
+					
+					<!--end right side bar-->					
+					
+					<!---footer>
+						<div class="row">
+								<div class="col s12">
+									<div class="footer-copyright">
+										<div class="container">
+											© 2016 Copyright Created by Manglesh Yadav
+											
+										</div>
+									</div>
+							  </div>
+						  </div>
+					</footer--->
+				</div>
+				
+		</div>
+		
+		
+    <!-- Page footer here -->
+		
+		 
+
+      <!--/div-->
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/perfect-scrollbar.jquery.js"></script>
+		<script type="text/javascript" src="js/perfect-scrollbar.js"></script>
+		<script type="text/javascript" src="js/plugins.js"></script>
+	
+	  <script>
+	 
+	 $(".sidebar-collapse").sideNav();
+	  
+	
+	function changeSize() {
+			var width = parseInt($("#Width").val());
+			var height = parseInt($("#Height").val());
+
+			$("#slide-out").width(width).height(height);
+
+			// update scrollbars
+			$('#slide-out').perfectScrollbar('update');
+
+			// or even with vanilla JS!
+			Ps.update(document.getElementById('slide-out'));
+		}
+
+		$(function() {
+			$('#slide-out').perfectScrollbar();
+
+			// with vanilla JS!
+			Ps.initialize(document.getElementById('slide-out'));
+		});
+	  
+	  
+	  </script>
+	  
+    </body>
+  </html>	
